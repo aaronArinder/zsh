@@ -1,2 +1,6 @@
 functions/apollo-push
 functions/apollo-check
+functions/refactors
+functions/todos
+hidden_exports
+uncommittable_aliases
