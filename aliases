@@ -1,0 +1,32 @@
+alias pablo="cd && cd Edge/pablo"
+alias platform="cd && cd Edge/edge-platform"
+alias platform2="cd && cd Edge/edge-platform-2"
+alias stockx="cd && cd stockX"
+alias blog="cd && cd blog"
+alias notes="cd && cd notes"
+
+alias gateway="cd && cd Edge/edge-gateway"
+alias branches="git branch --sort=-committerdate"
+
+alias get-api-keys=~/zsh/functions/get-api-keys
+alias get-api-keys-staging=~/zsh/functions/get-api-keys-staging
+
+alias apollo-check=~/zsh/functions/apollo-check
+alias apollo-push=~/zsh/functions/apollo-push
+
+alias lear="echo 'Nothing will come of nothing: speak again. - King Lear'"
+
+alias kubeprod='export KUBECONFIG=~/.kube/kubeconfig-stark-production'
+alias kubestaging='export KUBECONFIG=~/.kube/kubeconfig-arryn-staging-redux'
+alias kubemini='export KUBECONFIG=~/.kube/minikube'
+
+
+
+alias u_find-and-replace=~/zsh/functions/find-and-replace
+alias u_remove-node-modules=~/zsh/functions/remove-node-modules
+alias u_running-on-port=~/zsh/functions/running-on-port
+alias u_list-todos=~/zsh/functions/list-todos
+alias u_list-refactors=~/zsh/functions/list-refactors
+alias u_super-clean="git reset --hard && git clean -dfx"
+alias u_super-docker-down="docker-compose -f docker-compose.yml -f docker-compose-consumer-interactive.yml -f docker-compose-test.yml -f docker-compose-test-interactive.yml down"
+
