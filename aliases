@@ -1,3 +1,8 @@
+alias b="vim -c ':bro ol'"
+alias c="nvim -c ':bro ol'"
+alias v='vim "$(fzf)"'
+alias n='nvim "$(fzf)"'
+
 alias vi="nvim"
 alias vim="nvim"
 
