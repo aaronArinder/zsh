@@ -12,7 +12,7 @@ alias platform2="cd && cd Edge/edge-platform-2"
 alias stockx="cd && cd stockX"
 alias blog="cd && cd blog"
 alias notes="cd && cd notes"
-alias walc="cd && cd purps-turts/walc-admin"
+alias walc="cd && cd purps-turts/walc-rewrite"
 
 alias gateway="cd && cd Edge/edge-gateway"
 alias branches="git branch --sort=-committerdate"
